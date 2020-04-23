@@ -36,6 +36,7 @@ public class UserServiceImpl implements UserService, UserDetailsService {
 	@Transactional
 	@Override
 	public void removeUser(Long id) {
+		String a="ceshi";
 		userRepository.delete(id);
 	}
 
