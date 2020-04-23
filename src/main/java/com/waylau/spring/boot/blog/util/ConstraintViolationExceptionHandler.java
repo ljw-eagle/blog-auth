@@ -28,6 +28,7 @@ public class ConstraintViolationExceptionHandler {
 			msgList.add(constraintViolation.getMessage());
         }
 		String messages = StringUtils.join(msgList.toArray(), ";");
+		String b="ceshi pull";
 		return messages;
 	}
 
