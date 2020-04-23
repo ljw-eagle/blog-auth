@@ -17,7 +17,8 @@ import com.waylau.spring.boot.blog.repository.AuthorityRepository;
  */
 @Service
 public class AuthorityServiceImpl  implements AuthorityService {
-	
+
+
 	@Autowired
 	private AuthorityRepository authorityRepository;
 	
